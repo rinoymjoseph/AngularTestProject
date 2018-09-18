@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~primeicons/primeicons.css";
+@import "~primeng/resources/themes/nova-light/theme.css";
+@import "~primeng/resources/primeng.css";
+
+body{
+    margin:0;
+}
+
+.app-wrapper{
+    margin:1%;
+    border: 2px solid #2196F3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.app-header{
+    background: #2196F3;
+    border-radius: 5px;
+}
+
+.app-header-text{
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px 10px 2px 10px;
+    font-weight: bold;
+}
+
+.ui-tabmenu .ui-tabmenu-nav {
+    padding: 3px;
+    background: #2196F3;
+}
